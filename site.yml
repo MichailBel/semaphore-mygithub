@@ -1,6 +1,5 @@
 ---
-- name:TestPr
-  hosts: my_servers
+- hosts: my_servers
   become: yes
   tasks:
   - name: Print OS info
