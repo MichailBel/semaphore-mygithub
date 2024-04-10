@@ -1,7 +1,7 @@
----
-- hosts: 192.168.15.138
-  become: true
-  tasks:
-  - name: Print OS info
-    ansible.builtin.package:
-      name: apache2
+--- 
+ - hosts: 192.168.15.138
+   become: true
+   tasks:
+ - name: Print OS info
+   ansible.builtin.package:
+     name: apache2
