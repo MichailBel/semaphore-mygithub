@@ -1,5 +1,5 @@
 ---
-- hosts: mysite
+- hosts: rmslocal
   become: true
   tasks:
   - name: Print OS info
